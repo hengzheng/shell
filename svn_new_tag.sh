@@ -136,7 +136,6 @@ done
 #
 check_version $TAG_VERSION
 
-echo $REPOS
 # new tag
 if  [ -z "$REPOS" ]; then
     for REPOS in $REPOS_LIST;
